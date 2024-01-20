@@ -57,7 +57,7 @@ async fn main() {
 // We specify our return type, `&'static str`, however a route handler can return anything that implements `IntoResponse`
 
 async fn root() -> &'static str {
-    "Hello, World!"
+    "Hello, Worlds!"
 }
 
 // This is our route handler, for the route complex
